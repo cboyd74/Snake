@@ -1,0 +1,30 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <title>Cam's Snake Game</title>
+    <link rel="stylesheet" type="text/css"
+      href="css/snake_styles.css">
+      <script src = "snakeScript.js"></script>
+  </head>
+  <body>
+      <div id="contain">
+          <div id="titleDiv">
+              <img src= "css/snake_title.png" id="titlePic">
+          </div>
+          <div id = "mainDiv">
+	      <h1 id="directions">Use the WASD to move the snake</h1>
+              <h1>Hit the space bar to pause</h1>
+              <div id="canvasDiv">
+                    <canvas id = "snakeCanvas"></canvas>
+              </div>
+			  <div id="scoresDiv">
+			  		<ul id="scoresList">
+						<li class="listItem" id = "currScore">Score:</li>
+              			<li class="listItem" id = "currHigh">High Score:</li>
+					</ul>
+			  </div>
+      </div>
+      <script>game()</script>
+  </body>
+</html>
+

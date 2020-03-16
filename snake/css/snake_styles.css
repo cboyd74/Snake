@@ -1,0 +1,99 @@
+body {
+  background-color: #4a4a4a;
+
+}
+
+#contain {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 60% 10%;
+  width: 100%;
+  height: 1250px;
+  background-color:#e6e6e6;
+  overflow: hidden;
+}
+
+#titlePic {
+  margin: auto;
+  height: 300px;
+  width: 600px;
+}
+
+#titleDiv {
+  text-align: center;
+  margin: auto;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#mainDiv {
+  margin: auto;
+  text-align:center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#bottom {
+  text-align:center;
+  margin:auto;
+  width: 15%;
+  height: 75%;
+  border: 2px solid #63A46C;
+  background-color:#1a1a1a;
+  margin-bottom: 25px; 
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  
+}
+
+#snakeCanvas {
+  padding:0;
+  border: 5px solid #4a4a4a;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  width: 600px;
+  height:600px;
+}
+
+#canvasDiv {
+  margin: auto;
+}
+
+#scoresDiv {
+  font-family: Optima;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+
+#scoresList {
+	margin: 0;
+	list-style:none;
+	font-weight: bold;
+	font-family: Optima;
+    font-weight: bold;
+}
+
+.listItem {
+	display: inline;
+	padding: 10%;
+}
+
+h1 {
+  font-size: 15px;
+  margin: 0;
+  color: #4a4a4a;
+  font-family: Optima;
+}
+
+#currHigh {
+  margin: 0;
+  color: #4a4a4a;
+  font-family: Optima;
+}
