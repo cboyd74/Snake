@@ -1,1 +1,1 @@
-This is the first program I have built while self-teaching Javascript. It is my version of the classic snake game, which I believe was the perfect first project as it requires the use all of the basics. Also, by building a webpage for the game, I was able to work on my HTML and CSS skills as well.
+
